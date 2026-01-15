@@ -1,0 +1,271 @@
+﻿prakriti,ritu,goal,meal_slot,meal_id
+Vata,Vasant,energy,phalahar,V001
+Vata,Vasant,energy,regular fast meal,V002
+Vata,Vasant,energy,liquid fast,V003
+Vata,Vasant,digestion,phalahar,V004
+Vata,Vasant,digestion,regular fast meal,V005
+Vata,Vasant,digestion,liquid fast,V006
+Vata,Vasant,weightloss,phalahar,V007
+Vata,Vasant,weightloss,regular fast meal,V008
+Vata,Vasant,weightloss,liquid fast,V009
+Vata,Vasant,weightgain,phalahar,V010
+Vata,Vasant,weightgain,regular fast meal,V011
+Vata,Vasant,weightgain,liquid fast,V012
+Vata,Vasant,immunity,phalahar,V013
+Vata,Vasant,immunity,regular fast meal,V014
+Vata,Vasant,immunity,liquid fast,V015
+Vata,Greeshma,energy,phalahar,V016
+Vata,Greeshma,energy,regular fast meal,V017
+Vata,Greeshma,energy,liquid fast,V018
+Vata,Greeshma,digestion,phalahar,V019
+Vata,Greeshma,digestion,regular fast meal,V020
+Vata,Greeshma,digestion,liquid fast,V021
+Vata,Greeshma,weightloss,phalahar,V022
+Vata,Greeshma,weightloss,regular fast meal,V023
+Vata,Greeshma,weightloss,liquid fast,V024
+Vata,Greeshma,weightgain,phalahar,V025
+Vata,Greeshma,weightgain,regular fast meal,V026
+Vata,Greeshma,weightgain,liquid fast,V027
+Vata,Greeshma,immunity,phalahar,V028
+Vata,Greeshma,immunity,regular fast meal,V029
+Vata,Greeshma,immunity,liquid fast,V030
+Vata,Varsha,energy,phalahar,V031
+Vata,Varsha,energy,regular fast meal,V032
+Vata,Varsha,energy,liquid fast,V033
+Vata,Varsha,digestion,phalahar,V034
+Vata,Varsha,digestion,regular fast meal,V035
+Vata,Varsha,digestion,liquid fast,V036
+Vata,Varsha,weightloss,phalahar,V037
+Vata,Varsha,weightloss,regular fast meal,V038
+Vata,Varsha,weightloss,liquid fast,V039
+Vata,Varsha,weightgain,phalahar,V040
+Vata,Varsha,weightgain,regular fast meal,V041
+Vata,Varsha,weightgain,liquid fast,V042
+Vata,Varsha,immunity,phalahar,V043
+Vata,Varsha,immunity,regular fast meal,V044
+Vata,Varsha,immunity,liquid fast,V045
+Vata,Sharad,energy,phalahar,V046
+Vata,Sharad,energy,regular fast meal,V047
+Vata,Sharad,energy,liquid fast,V048
+Vata,Sharad,digestion,phalahar,V049
+Vata,Sharad,digestion,regular fast meal,V050
+Vata,Sharad,digestion,liquid fast,V051
+Vata,Sharad,weightloss,phalahar,V052
+Vata,Sharad,weightloss,regular fast meal,V053
+Vata,Sharad,weightloss,liquid fast,V054
+Vata,Sharad,weightgain,phalahar,V055
+Vata,Sharad,weightgain,regular fast meal,V056
+Vata,Sharad,weightgain,liquid fast,V057
+Vata,Sharad,immunity,phalahar,V058
+Vata,Sharad,immunity,regular fast meal,V059
+Vata,Sharad,immunity,liquid fast,V060
+Vata,Hemant,energy,phalahar,V061
+Vata,Hemant,energy,regular fast meal,V062
+Vata,Hemant,energy,liquid fast,V063
+Vata,Hemant,digestion,phalahar,V064
+Vata,Hemant,digestion,regular fast meal,V065
+Vata,Hemant,digestion,liquid fast,V066
+Vata,Hemant,weightloss,phalahar,V067
+Vata,Hemant,weightloss,regular fast meal,V068
+Vata,Hemant,weightloss,liquid fast,V069
+Vata,Hemant,weightgain,phalahar,V070
+Vata,Hemant,weightgain,regular fast meal,V071
+Vata,Hemant,weightgain,liquid fast,V072
+Vata,Hemant,immunity,phalahar,V073
+Vata,Hemant,immunity,regular fast meal,V074
+Vata,Hemant,immunity,liquid fast,V075
+Vata,Shishir,energy,phalahar,V076
+Vata,Shishir,energy,regular fast meal,V077
+Vata,Shishir,energy,liquid fast,V078
+Vata,Shishir,digestion,phalahar,V079
+Vata,Shishir,digestion,regular fast meal,V080
+Vata,Shishir,digestion,liquid fast,V081
+Vata,Shishir,weightloss,phalahar,V082
+Vata,Shishir,weightloss,regular fast meal,V083
+Vata,Shishir,weightloss,liquid fast,V084
+Vata,Shishir,weightgain,phalahar,V085
+Vata,Shishir,weightgain,regular fast meal,V086
+Vata,Shishir,weightgain,liquid fast,V087
+Vata,Shishir,immunity,phalahar,V088
+Vata,Shishir,immunity,regular fast meal,V089
+Vata,Shishir,immunity,liquid fast,V090
+Pitta,Vasant,energy,phalahar,P001
+Pitta,Vasant,energy,regular fast meal,P002
+Pitta,Vasant,energy,liquid fast,P003
+Pitta,Vasant,digestion,phalahar,P004
+Pitta,Vasant,digestion,regular fast meal,P005
+Pitta,Vasant,digestion,liquid fast,P006
+Pitta,Vasant,weightloss,phalahar,P007
+Pitta,Vasant,weightloss,regular fast meal,P008
+Pitta,Vasant,weightloss,liquid fast,P009
+Pitta,Vasant,weightgain,phalahar,P010
+Pitta,Vasant,weightgain,regular fast meal,P011
+Pitta,Vasant,weightgain,liquid fast,P012
+Pitta,Vasant,immunity,phalahar,P013
+Pitta,Vasant,immunity,regular fast meal,P014
+Pitta,Vasant,immunity,liquid fast,P015
+Pitta,Greeshma,energy,phalahar,P016
+Pitta,Greeshma,energy,regular fast meal,P017
+Pitta,Greeshma,energy,liquid fast,P018
+Pitta,Greeshma,digestion,phalahar,P019
+Pitta,Greeshma,digestion,regular fast meal,P020
+Pitta,Greeshma,digestion,liquid fast,P021
+Pitta,Greeshma,weightloss,phalahar,P022
+Pitta,Greeshma,weightloss,regular fast meal,P023
+Pitta,Greeshma,weightloss,liquid fast,P024
+Pitta,Greeshma,weightgain,phalahar,P025
+Pitta,Greeshma,weightgain,regular fast meal,P026
+Pitta,Greeshma,weightgain,liquid fast,P027
+Pitta,Greeshma,immunity,phalahar,P028
+Pitta,Greeshma,immunity,regular fast meal,P029
+Pitta,Greeshma,immunity,liquid fast,P030
+Pitta,Varsha,energy,phalahar,P031
+Pitta,Varsha,energy,regular fast meal,P032
+Pitta,Varsha,energy,liquid fast,P033
+Pitta,Varsha,digestion,phalahar,P034
+Pitta,Varsha,digestion,regular fast meal,P035
+Pitta,Varsha,digestion,liquid fast,P036
+Pitta,Varsha,weightloss,phalahar,P037
+Pitta,Varsha,weightloss,regular fast meal,P038
+Pitta,Varsha,weightloss,liquid fast,P039
+Pitta,Varsha,weightgain,phalahar,P040
+Pitta,Varsha,weightgain,regular fast meal,P041
+Pitta,Varsha,weightgain,liquid fast,P042
+Pitta,Varsha,immunity,phalahar,P043
+Pitta,Varsha,immunity,regular fast meal,P044
+Pitta,Varsha,immunity,liquid fast,P045
+Pitta,Sharad,energy,phalahar,P046
+Pitta,Sharad,energy,regular fast meal,P047
+Pitta,Sharad,energy,liquid fast,P048
+Pitta,Sharad,digestion,phalahar,P049
+Pitta,Sharad,digestion,regular fast meal,P050
+Pitta,Sharad,digestion,liquid fast,P051
+Pitta,Sharad,weightloss,phalahar,P052
+Pitta,Sharad,weightloss,regular fast meal,P053
+Pitta,Sharad,weightloss,liquid fast,P054
+Pitta,Sharad,weightgain,phalahar,P055
+Pitta,Sharad,weightgain,regular fast meal,P056
+Pitta,Sharad,weightgain,liquid fast,P057
+Pitta,Sharad,immunity,phalahar,P058
+Pitta,Sharad,immunity,regular fast meal,P059
+Pitta,Sharad,immunity,liquid fast,P060
+Pitta,Hemant,energy,phalahar,P061
+Pitta,Hemant,energy,regular fast meal,P062
+Pitta,Hemant,energy,liquid fast,P063
+Pitta,Hemant,digestion,phalahar,P064
+Pitta,Hemant,digestion,regular fast meal,P065
+Pitta,Hemant,digestion,liquid fast,P066
+Pitta,Hemant,weightloss,phalahar,P067
+Pitta,Hemant,weightloss,regular fast meal,P068
+Pitta,Hemant,weightloss,liquid fast,P069
+Pitta,Hemant,weightgain,phalahar,P070
+Pitta,Hemant,weightgain,regular fast meal,P071
+Pitta,Hemant,weightgain,liquid fast,P072
+Pitta,Hemant,immunity,phalahar,P073
+Pitta,Hemant,immunity,regular fast meal,P074
+Pitta,Hemant,immunity,liquid fast,P075
+Pitta,Shishir,energy,phalahar,P076
+Pitta,Shishir,energy,regular fast meal,P077
+Pitta,Shishir,energy,liquid fast,P078
+Pitta,Shishir,digestion,phalahar,P079
+Pitta,Shishir,digestion,regular fast meal,P080
+Pitta,Shishir,digestion,liquid fast,P081
+Pitta,Shishir,weightloss,phalahar,P082
+Pitta,Shishir,weightloss,regular fast meal,P083
+Pitta,Shishir,weightloss,liquid fast,P084
+Pitta,Shishir,weightgain,phalahar,P085
+Pitta,Shishir,weightgain,regular fast meal,P086
+Pitta,Shishir,weightgain,liquid fast,P087
+Pitta,Shishir,immunity,phalahar,P088
+Pitta,Shishir,immunity,regular fast meal,P089
+Pitta,Shishir,immunity,liquid fast,P090
+Kapha,Vasant,energy,phalahar,K001
+Kapha,Vasant,energy,regular fast meal,K002
+Kapha,Vasant,energy,liquid fast,K003
+Kapha,Vasant,digestion,phalahar,K004
+Kapha,Vasant,digestion,regular fast meal,K005
+Kapha,Vasant,digestion,liquid fast,K006
+Kapha,Vasant,weightloss,phalahar,K007
+Kapha,Vasant,weightloss,regular fast meal,K008
+Kapha,Vasant,weightloss,liquid fast,K009
+Kapha,Vasant,weightgain,phalahar,K010
+Kapha,Vasant,weightgain,regular fast meal,K011
+Kapha,Vasant,weightgain,liquid fast,K012
+Kapha,Vasant,immunity,phalahar,K013
+Kapha,Vasant,immunity,regular fast meal,K014
+Kapha,Vasant,immunity,liquid fast,K015
+Kapha,Greeshma,energy,phalahar,K016
+Kapha,Greeshma,energy,regular fast meal,K017
+Kapha,Greeshma,energy,liquid fast,K018
+Kapha,Greeshma,digestion,phalahar,K019
+Kapha,Greeshma,digestion,regular fast meal,K020
+Kapha,Greeshma,digestion,liquid fast,K021
+Kapha,Greeshma,weightloss,phalahar,K022
+Kapha,Greeshma,weightloss,regular fast meal,K023
+Kapha,Greeshma,weightloss,liquid fast,K024
+Kapha,Greeshma,weightgain,phalahar,K025
+Kapha,Greeshma,weightgain,regular fast meal,K026
+Kapha,Greeshma,weightgain,liquid fast,K027
+Kapha,Greeshma,immunity,phalahar,K028
+Kapha,Greeshma,immunity,regular fast meal,K029
+Kapha,Greeshma,immunity,liquid fast,K030
+Kapha,Varsha,energy,phalahar,K031
+Kapha,Varsha,energy,regular fast meal,K032
+Kapha,Varsha,energy,liquid fast,K033
+Kapha,Varsha,digestion,phalahar,K034
+Kapha,Varsha,digestion,regular fast meal,K035
+Kapha,Varsha,digestion,liquid fast,K036
+Kapha,Varsha,weightloss,phalahar,K037
+Kapha,Varsha,weightloss,regular fast meal,K038
+Kapha,Varsha,weightloss,liquid fast,K039
+Kapha,Varsha,weightgain,phalahar,K040
+Kapha,Varsha,weightgain,regular fast meal,K041
+Kapha,Varsha,weightgain,liquid fast,K042
+Kapha,Varsha,immunity,phalahar,K043
+Kapha,Varsha,immunity,regular fast meal,K044
+Kapha,Varsha,immunity,liquid fast,K045
+Kapha,Sharad,energy,phalahar,K046
+Kapha,Sharad,energy,regular fast meal,K047
+Kapha,Sharad,energy,liquid fast,K048
+Kapha,Sharad,digestion,phalahar,K049
+Kapha,Sharad,digestion,regular fast meal,K050
+Kapha,Sharad,digestion,liquid fast,K051
+Kapha,Sharad,weightloss,phalahar,K052
+Kapha,Sharad,weightloss,regular fast meal,K053
+Kapha,Sharad,weightloss,liquid fast,K054
+Kapha,Sharad,weightgain,phalahar,K055
+Kapha,Sharad,weightgain,regular fast meal,K056
+Kapha,Sharad,weightgain,liquid fast,K057
+Kapha,Sharad,immunity,phalahar,K058
+Kapha,Sharad,immunity,regular fast meal,K059
+Kapha,Sharad,immunity,liquid fast,K060
+Kapha,Hemant,energy,phalahar,K061
+Kapha,Hemant,energy,regular fast meal,K062
+Kapha,Hemant,energy,liquid fast,K063
+Kapha,Hemant,digestion,phalahar,K064
+Kapha,Hemant,digestion,regular fast meal,K065
+Kapha,Hemant,digestion,liquid fast,K066
+Kapha,Hemant,weightloss,phalahar,K067
+Kapha,Hemant,weightloss,regular fast meal,K068
+Kapha,Hemant,weightloss,liquid fast,K069
+Kapha,Hemant,weightgain,phalahar,K070
+Kapha,Hemant,weightgain,regular fast meal,K071
+Kapha,Hemant,weightgain,liquid fast,K072
+Kapha,Hemant,immunity,phalahar,K073
+Kapha,Hemant,immunity,regular fast meal,K074
+Kapha,Hemant,immunity,liquid fast,K075
+Kapha,Shishir,energy,phalahar,K076
+Kapha,Shishir,energy,regular fast meal,K077
+Kapha,Shishir,energy,liquid fast,K078
+Kapha,Shishir,digestion,phalahar,K079
+Kapha,Shishir,digestion,regular fast meal,K080
+Kapha,Shishir,digestion,liquid fast,K081
+Kapha,Shishir,weightloss,phalahar,K082
+Kapha,Shishir,weightloss,regular fast meal,K083
+Kapha,Shishir,weightloss,liquid fast,K084
+Kapha,Shishir,weightgain,phalahar,K085
+Kapha,Shishir,weightgain,regular fast meal,K086
+Kapha,Shishir,weightgain,liquid fast,K087
+Kapha,Shishir,immunity,phalahar,K088
+Kapha,Shishir,immunity,regular fast meal,K089
+Kapha,Shishir,immunity,liquid fast,K090
