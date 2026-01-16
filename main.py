@@ -14,7 +14,7 @@ app = Flask(__name__)
 # PATHS
 # ===============================
 MODEL_PATH = "Model/vedaahar_model.pkl"
-DRIVE_FILE_ID = "1pdUj7g7NTkZyMDv1ESl11ENwcTYtT-Z0"
+DRIVE_FILE_ID = "10M3eqFw19ISbJZDYDZNCq4CkN61x2eRt"
 
 VEG_PATH = "Data/Veg_dataset.csv"
 FASTING_PATH = "Data/Fasting_dataset.csv"
@@ -75,6 +75,12 @@ def normalize(df):
 veg_df = normalize(veg_df)
 fasting_df = normalize(fasting_df)
 nonveg_df = normalize(nonveg_df)
+
+# 🔥 KEEP ONLY REQUIRED COLUMNS (VERY IMPORTANT)
+veg_df = veg_df[["meal_id", "meal_slot"]]
+fasting_df = fasting_df[["meal_id", "meal_slot"]]
+nonveg_df = nonveg_df[["meal_id", "meal_slot"]]
+
 
 # ===============================
 # UTILS
