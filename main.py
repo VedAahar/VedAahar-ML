@@ -5,6 +5,7 @@ import os
 from datetime import date
 from flask import Flask, request, jsonify
 import warnings
+import gdown
 
 warnings.filterwarnings("ignore")
 app = Flask(__name__)
@@ -12,15 +13,45 @@ app = Flask(__name__)
 # ===============================
 # PATHS
 # ===============================
-MODEL_PATH = "models/vedaahar_model.pkl"
+MODEL_PATH = "Model/vedaahar_model.pkl"
+DRIVE_FILE_ID = "1pdUj7g7NTkZyMDv1ESl11ENwcTYtT-Z0"
+
 VEG_PATH = "Data/Veg_dataset.csv"
 FASTING_PATH = "Data/Fasting_dataset.csv"
 NONVEG_PATH = "Data/NonVeg_dataset.csv"
 HISTORY_PATH = "Data/meal_history.csv"
 
 # ===============================
-# LOAD MODEL
+# DOWNLOAD MODEL FROM GOOGLE DRIVE
 # ===============================
+
+
+def download_model_from_drive(file_id, destination):
+    if os.path.exists(destination):
+        print("✅ Model already exists, skipping download")
+        return
+
+    print("⬇️ Downloading model from Google Drive using gdown...")
+
+    os.makedirs(os.path.dirname(destination), exist_ok=True)
+
+    url = f"https://drive.google.com/uc?id={file_id}"
+    gdown.download(url, destination, quiet=False)
+
+    size_mb = os.path.getsize(destination) / (1024 * 1024)
+    print(f"📦 Downloaded model size: {size_mb:.2f} MB")
+
+    if size_mb < 50:
+        raise RuntimeError("❌ Download failed: model file too small")
+
+
+
+
+# ===============================
+# LOAD MODEL (INFERENCE ONLY)
+# ===============================
+download_model_from_drive(DRIVE_FILE_ID, MODEL_PATH)
+
 bundle = joblib.load(MODEL_PATH)
 rf = bundle["model"]
 label_encoders = bundle["label_encoders"]
@@ -129,7 +160,6 @@ def generate_meal_plan(prakriti, ritu, goal, day_type, days, user):
 
             chosen = next((m for m in ranked if m in valid and m not in used_meals), None)
             plan[f"Day {d}"][slot] = chosen or np.random.choice(valid)
-
             used_meals.add(plan[f"Day {d}"][slot])
 
     return plan
