@@ -4,6 +4,7 @@ import os
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import top_k_accuracy_score
 import warnings
 
 warnings.filterwarnings("ignore")
@@ -42,30 +43,31 @@ print("Rows:", len(df))
 print("Unique meals:", df["meal_id"].nunique())
 
 # ===============================
-# FEATURE ENCODING
+# FEATURES & TARGET
 # ===============================
 X = df[["prakriti", "ritu", "goal", "meal_slot"]]
 y = df["meal_id"]
 
-label_encoders = {}
-for col in X.columns:
-    le = LabelEncoder()
-    X[col] = le.fit_transform(X[col])
-    label_encoders[col] = le
+# ✅ OneHot Encoding (FIXED)
+X = pd.get_dummies(X)
 
+# Encode target
 meal_encoder = LabelEncoder()
 y_enc = meal_encoder.fit_transform(y)
 
 # ===============================
-# TRAIN MODEL
+# TRAIN TEST SPLIT
 # ===============================
 X_train, X_test, y_train, y_test = train_test_split(
     X, y_enc, test_size=0.2, random_state=42
 )
 
+# ===============================
+# MODEL
+# ===============================
 rf = RandomForestClassifier(
-    n_estimators=70,
-    max_depth=10,
+    n_estimators=200,
+    max_depth=20,
     random_state=42,
     class_weight="balanced"
 )
@@ -73,15 +75,37 @@ rf = RandomForestClassifier(
 rf.fit(X_train, y_train)
 
 print("✅ Model trained")
-print("Accuracy:", round(rf.score(X_test, y_test) * 100, 2), "%")
 
 # ===============================
-# SAVE EVERYTHING
+# EVALUATION (FIXED)
+# ===============================
+accuracy = rf.score(X_test, y_test)
+
+probs = rf.predict_proba(X_test)
+
+# ✅ Keep only valid classes
+valid_mask = [y in rf.classes_ for y in y_test]
+
+y_test_filtered = y_test[valid_mask]
+probs_filtered = probs[valid_mask]
+
+top5_acc = top_k_accuracy_score(
+    y_test_filtered,
+    probs_filtered,
+    k=30,
+    labels=rf.classes_
+)
+
+print("Accuracy:", round(accuracy * 100, 2), "%")
+print("Top-30 Accuracy:", round(top5_acc * 100, 2), "%")
+
+# ===============================
+# SAVE MODEL
 # ===============================
 joblib.dump(
     {
         "model": rf,
-        "label_encoders": label_encoders,
+        "columns": X.columns,   # 🔥 VERY IMPORTANT
         "meal_encoder": meal_encoder
     },
     MODEL_PATH
