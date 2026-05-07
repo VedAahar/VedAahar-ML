@@ -14,7 +14,7 @@ app = Flask(__name__)
 # PATHS
 # ===============================
 MODEL_PATH = "Model/vedaahar_model.pkl"
-DRIVE_FILE_ID = "10M3eqFw19ISbJZDYDZNCq4CkN61x2eRt"
+DRIVE_FILE_ID = "1Ug4RKobl5aaCJ8AL3BePS_qctrUmvoc5"
 
 VEG_PATH = "Data/Veg_dataset.csv"
 FASTING_PATH = "Data/Fasting_dataset.csv"
