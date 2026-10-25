@@ -13,10 +13,10 @@ app = Flask(__name__)
 # ===============================
 # PATHS
 # ===============================
-MODEL_PATH = "Model/LowMemoryModel/vedaahar_model.pkl"
-DRIVE_FILE_ID = "13Ub-42SO-6tca29mTJk1lWdgQ7PaVIUc"
-# MODEL_PATH = "Model/vedaahar_model.pkl"
-# DRIVE_FILE_ID = "1Ug4RKobl5aaCJ8AL3BePS_qctrUmvoc5"
+#MODEL_PATH = "Model/LowMemoryModel/vedaahar_model.pkl"
+#DRIVE_FILE_ID = "13Ub-42SO-6tca29mTJk1lWdgQ7PaVIUc"
+ MODEL_PATH = "Model/vedaahar_model.pkl"
+ DRIVE_FILE_ID = "1Ug4RKobl5aaCJ8AL3BePS_qctrUmvoc5"
 
 VEG_PATH = "Data/Veg_dataset.csv"
 FASTING_PATH = "Data/Fasting_dataset.csv"
